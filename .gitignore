@@ -1,3 +1,36 @@
+# Python 虚拟环境
 .venv/
-**/__pycache__/
-*.env
+venv/
+env/
+ENV/
+
+# Python 缓存与构建产物
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.egg-info/
+
+# 环境变量与密钥（绝不入库）
+.env
+.env.*
+
+# IDE / 编辑器
+.idea/
+.vscode/
+.vs/
+*.swp
+*.swo
+
+# Windows
+Thumbs.db
+Desktop.ini
+
+# macOS
+.DS_Store
